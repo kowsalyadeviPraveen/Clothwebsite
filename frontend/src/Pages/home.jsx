@@ -6,13 +6,8 @@ import Hero from "../Components/Hero/Hero";
 function Home() {
   return (
     <div>
-      <NavbarComponent />
-      <hr />
-      <Categories />
-      <hr />
+   
       <Hero />
-      <FooterComponent />
-      <hr />
     </div>
   );
 }

@@ -1,13 +1,14 @@
-import NavbarComponent from "../Components/NavbarComponent";
-import Categories from "../Components/Categories";
-import FooterComponent from "../Components/FooterComponent";
 import Hero from "../Components/Hero/Hero";
+import NewArrival from "../Components/NewArraival/NewArraival";
+
 
 function Home() {
   return (
     <div>
    
       <Hero />
+     <NewArrival/>
+      
     </div>
   );
 }

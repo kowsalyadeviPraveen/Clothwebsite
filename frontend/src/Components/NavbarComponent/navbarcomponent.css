@@ -1,0 +1,10 @@
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar > .menus > ul >li a:hover {
+    color: orange;
+    transform: scale(1.2);
+    text-decoration: underline;
+}

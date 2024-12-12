@@ -1,10 +1,9 @@
 import './App.css';
-import Hero from './Components/Hero/Hero';
+import Home from './Pages/home';
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to Dev Branch</h1>
-      <Hero/>
+      <Home />
     </div>
    
   );

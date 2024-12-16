@@ -1,20 +1,22 @@
-import "./categories.css"
+import React from "react";
+import { Link } from "react-router-dom";
+import "./categories.css";
 
 function Categories() {
   return (
     <div className="categories">
-      <ul className="flex justify-content-around gap-6 list-none color-black-alpha-70">
+      <ul className="categories-list flex justify-content-around gap-6 list-none color-black-alpha-70">
         <li>
-        <a href="www.">Men's</a>
+          <Link to="/mens">Men's</Link>
         </li>
         <li>
-        <a href="www.">Women's</a>
+          <Link to="/womens">Women's</Link>
         </li>
         <li>
-        <a href="www.">Kid's</a>
+          <Link to="/kids">Kid's</Link>
         </li>
         <li>
-        <a href="www.">New Arrival's</a>
+          <Link to="/new-arrivals">New Arrival's</Link>
         </li>
       </ul>
     </div>

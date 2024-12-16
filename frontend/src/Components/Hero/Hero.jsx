@@ -42,7 +42,7 @@ const Hero = () => {
                 <h2 className="section-heading">Explore & Shop</h2>
                 <Row>
                     {/* Trending Section */}
-                    <Col sm={3} md={6} lg={3}>
+                    <Col xs={3} sm={3} md={3} lg={3}>
                     <Link  to="/trending"  style={{ textDecoration: 'none' }}>
                         <Card className="category-card">
                             <Card.Img className="card-img" variant="top" src={hero_trending} alt="Trending" />
@@ -54,7 +54,7 @@ const Hero = () => {
                     </Col>
 
                     {/* Women Section */}
-                    <Col sm={3} lg={3}>
+                    <Col xs={3} sm={3} md={3} lg={3}>
                     <Link  to="/women"  style={{ textDecoration: 'none' }}>
                         <Card className="category-card">
                             <Card.Img className="card-img" variant="top" src={hero_women} alt="Women" />
@@ -66,7 +66,7 @@ const Hero = () => {
                     </Col>
 
                     {/* Men Section */}
-                    <Col sm={3} lg={3}>
+                    <Col xs={3} sm={3} md={3} lg={3}>
                     <Link  to="/men"  style={{ textDecoration: 'none' }}>
                         <Card className="category-card">
                             <Card.Img className="card-img" variant="top" src={hero_men} alt="Men" />
@@ -78,7 +78,7 @@ const Hero = () => {
                     </Col>
 
                     {/* Kids Section */}
-                    <Col sm={3} lg={3}>
+                    <Col xs={3} sm={3} md={3} lg={3}>
                     <Link  to="/kid"  style={{ textDecoration: 'none' }}>
                         <Card className="category-card">
                             <Card.Img className="card-img" variant="top" src={hero_kid} alt="Kids" />

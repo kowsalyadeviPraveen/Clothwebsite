@@ -1,0 +1,48 @@
+  
+.kmw-card {
+    margin: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s ease;
+    height: 250px;
+    
+  }
+
+  
+  
+  .kmw-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Card image styling to ensure equal size */
+  .kmwcard-img {
+    height: 180px;
+    object-fit: fill;
+    width: 100%;
+  }
+  
+  /* Title styling */
+  .kmw-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Price styling */
+  .new-price {
+    font-size: 1.1rem;
+    color: #28a745;
+  }
+  
+  .old-price {
+    font-size: 1rem;
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 10px;
+  }
+  .view{
+    margin-bottom: 20px;
+  }
+
+  
+  
